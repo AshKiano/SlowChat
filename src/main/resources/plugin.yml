@@ -1,0 +1,16 @@
+name: SlowChat
+version: '${project.version}'
+main: com.ashkiano.slowchat.SlowChat
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  slowchat:
+    description: Manage the slow chat settings.
+    usage: /<command>
+permissions:
+  slowchat.use:
+    description: Allows use of slow chat features.
+    default: op
+  slowchat.setdelay:
+    description: Allows setting the chat delay.
+    default: op
